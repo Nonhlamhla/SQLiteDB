@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextSurname" type="id" />
+    <item name="editTextMarks" type="id" />
+    <item name="editTextComments" type="id" />
+    <item name="editTextId" type="id" />
+    <item name="btnAdd" type="id" />
+    <item name="btnView" type="id" />
+    <item name="btnUpdate" type="id" />
+    <item name="btnDelete" type="id" />
+</resources>

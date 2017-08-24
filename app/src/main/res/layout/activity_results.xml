@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_results"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/y2"
+    tools:context="com.example.nonhlanhla.sqlitedb.ResultsActivity">
+
+
+    <TextView
+        android:text="Student Results"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp"
+        android:id="@+id/textView"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Student Id:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp"
+        android:id="@+id/textView2"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:text="Student Name:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView3"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="Student Surname:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:id="@+id/textView4"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="Subjects"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp"
+        android:id="@+id/textView6"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toEndOf="@+id/textView17"
+        android:id="@+id/textViewId"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewName"
+        android:layout_above="@+id/textView4"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/textView4"
+        android:id="@+id/textViewSurname"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_marginLeft="5dp"  />
+
+    <TextView
+        android:text="Mathematics:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView10"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:text="Life Sciences:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView11"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="Physical Sciences:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Geography:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView12"
+        android:id="@+id/textView13"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="English:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView14"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="Afrikaans:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView15"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="Life Orientation:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Comments:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="46dp"
+        android:id="@+id/textView17"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:text="Examiner:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView18"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_toEndOf="@+id/textView3"
+        android:id="@+id/textViewMathematics"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/textView11"
+        android:id="@+id/textViewPhysical"
+        android:layout_below="@+id/textViewMathematics"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewLife"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/textView11"
+        android:layout_toEndOf="@+id/textView12" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView12"
+        android:id="@+id/textViewGeography"
+        android:layout_alignEnd="@+id/textViewPhysical"
+        android:layout_toEndOf="@+id/textView10"
+        android:layout_alignStart="@+id/textViewAfrikaans" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:id="@+id/textViewEnglish"
+        android:layout_marginLeft="10dp"
+        android:layout_alignEnd="@+id/textViewMathematics"
+        android:layout_toEndOf="@+id/textView14" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewEnglish"
+        android:layout_toEndOf="@+id/textView2"
+        android:id="@+id/textViewAfrikaans"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView17"
+        android:id="@+id/textViewComment"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/textView2" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView17"
+        android:layout_toEndOf="@+id/textView13"
+        android:id="@+id/textViewExaminer0"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewAfrikaans"
+        android:layout_toEndOf="@+id/textView16"
+        android:id="@+id/textViewOrientation"
+        android:layout_marginLeft="5dp" />
+
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewAverage0"
+        android:layout_alignBaseline="@+id/textViewAverage"
+        android:layout_alignBottom="@+id/textViewAverage"
+        android:layout_alignStart="@+id/textViewExaminer0" />
+
+    <TextView
+        android:text="Average:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewAverage"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/textView18"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
